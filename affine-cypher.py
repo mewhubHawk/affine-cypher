@@ -12,6 +12,8 @@ words = [
   "bullet"
 ]
 
+#cypher = input("Enter what you'd like to be decyphered: ")
+
 print(alphabet[0])
 
 for index in range(26):
@@ -29,12 +31,12 @@ for index in range(26):
 
 
 
-index = randint
-if letter > 26 
-   letter - 26
+
 
 '''
-cypher = input("Enter what you'd like to be decyphered: ")
+index = randint
+if letter > 25 
+   letter=- 26
 
 each letter refers to a number
 
