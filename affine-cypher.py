@@ -1,3 +1,5 @@
+from random import randint
+
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 #index = 0
 words = [
@@ -15,7 +17,17 @@ print(alphabet[0])
 for index in range(26):
   print(alphabet[index])
 
-from random import randint
+for index in range(26):
+  randindex=randint(0,51)
+  if randindex > 25: 
+    randindex=- 26
+  
+  print(alphabet[index],
+     alphabet[randindex]
+     )
+
+
+
 
 index = randint
 if letter > 26 
