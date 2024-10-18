@@ -1,15 +1,17 @@
 <h1>Mathematical ciphers</h1>
-Despite the advantages for an agent in using keyword
+<p>Despite the advantages for an agent in using keyword
 substitution, most of the ciphers produced and studied by
 modern cryptographers are automated and rely on
 mathematics to provide the encryption. On the other side
 of the cyber battle lie the cryptanalysts, who spend
 every waking hour applying more mathematics to try to
-break these ciphers.
-A good way to start thinking mathematically is to revisit
+break these ciphers.</p>
+
+<p>A good way to start thinking mathematically is to revisit
 the Caesar shift cipher which can be viewed as a type of
-addition.
-Each letter is first encoded by its numerical position in
+addition.</p>
+
+<p>Each letter is first encoded by its numerical position in
 the alphabet. For reasons lost in the mists of time the
 convention is that we take a to lie in position 0, b in
 position 1 and so on, and the Caesar shift is then given
@@ -27,4 +29,4 @@ You can think of this as putting the numbers 0 - 25 on a
 clock face and adding them by counting round the face. We
 do this when telling the time. Three hours after 11
 o’clock is 2 o’clock, which we get by adding 3+11 = 14,
-then subtracting 12 to get 2.
+then subtracting 12 to get 2.</p>
