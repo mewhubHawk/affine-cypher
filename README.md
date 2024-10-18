@@ -24,8 +24,9 @@ there are no letters in those positions, but since those
 letters move to A, B, C in positions 0,1,2 we can fix
 that by changing our addition so that when the answer is
 bigger than 26 we subtract 26 to put it back in the
-required range.
-You can think of this as putting the numbers 0 - 25 on a
+required range.</p>
+
+<p>You can think of this as putting the numbers 0 - 25 on a
 clock face and adding them by counting round the face. We
 do this when telling the time. Three hours after 11
 o’clock is 2 o’clock, which we get by adding 3+11 = 14,
